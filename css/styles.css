@@ -42,12 +42,15 @@ main ul {
 /* text elements */
 header {
 	text-align: center;
-	height: 771.297px;
+	height: 90vh;
 	padding: 15px;
 	max-width: 100%;
 	max-height: 100%;
 	background-color: #B0E0D0;
 	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h1, h2, h3, h4 {
@@ -59,6 +62,7 @@ h1 {
 	font-size: 100px;
 	margin: 0;
 	margin-bottom: 25px;
+	padding: 0;
 }
 
 h2 {
@@ -164,15 +168,6 @@ footer {
 }
 
 /* classes */
-.left-col, .right-col {
-	color: white;
-	text-align: center;
-	height: 90vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .right-align {
 	text-align: right;
 }
